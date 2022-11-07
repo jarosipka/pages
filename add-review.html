@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style> 
+        input[type=button], input[type=submit], input[type=reset] {
+          background-color: #04AA6D;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
 </head>
 <body>
     
@@ -14,6 +25,43 @@
         <li><a href="top-films.html">Rebríček top filmov</a></li>
         <li><a href="add-review.html">Pridať recenziu</a></li>
     </ul>
+
     <h1>Recenzie</h1>
+
+    <form action="/action_page.php">
+        <label for="fname">Názov filmu</label><br>
+        <input type="text"  required><br> 
+        <label for="lname">Meno/nick</label><br>
+        <input type="text" required> <br>
+        <label for="fname">Email</label><br>
+        <input type="email" required><br> 
+        <label for="fname"> Textové pole</label><br>
+        <textarea name="comment" form="usrform"></textarea><br>
+        <label for="fname">Dátum, kedy bol film naposledny pozeraný</label><br>
+        <input type="date"><br><br>
+        <label for="points"> Číselné hodnotenie od 0 do 100, po krokoch 10</label><br>
+        <input type="range" id="points" name="points" step="10" value="0" min="0" max="100"><br>
+        
+        <form action="/action_page.php">
+            <p>žáner filmu:</p>
+            <input type="radio"  name="genre">
+            <label>dráma</label><br>
+            <input type="radio" name="genre">
+            <label>komédia</label><br>
+            <input type="radio" name="genre">
+            <label >horor</label>
+          
+           <br>
+            <input type="radio" name="genre" >
+            <label>dokument</label>
+          
+            <br>  
+          
+            <br>  
+
+          <br>  
+
+        <input type="submit" value="Submit">
+    </form> 
 </body>
 </html>
