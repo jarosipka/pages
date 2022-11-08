@@ -1,4 +1,4 @@
-.menu{
+#menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@
     background-color: #333;
   }
   
-.menu li {
+#menu li {
     float: left;
   }
   
-.menu  li a {
+#menu  li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,18 +19,18 @@
   }
   
   
- .menu li a:hover {
+ #menu li a:hover {
     background-color: purple;
   }
 
-.actors {
+#actors {
     list-style-type: none;
   }
 
-.man {
+#man {
     color: blue;
   }
 
-.woman {
+#woman {
     color: pink;
 }
