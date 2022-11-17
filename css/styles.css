@@ -3,7 +3,6 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 #menu{
   list-style-type: none;
   margin: 0;
@@ -43,14 +42,13 @@ body, html {
 
 
 .banner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/roxbury.jpg);
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/roxbury.jpg);
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
-}
+  }
 
 .banner-text {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
