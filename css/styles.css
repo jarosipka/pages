@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #menu{
   list-style-type: none;
   margin: 0;
@@ -15,6 +16,7 @@ body, html {
   float: left;
 }
 
+
 #menu  li a {
   display: block;
   color: white;
@@ -26,6 +28,11 @@ body, html {
 
 #menu li a:hover {
   background-color: purple;
+}
+
+p::first-letter {
+  color: purple;
+  font-size: x-large;
 }
 
 #actors {
@@ -124,3 +131,29 @@ body, html {
   transform: translateY(4px);
 }
 
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
