@@ -41,6 +41,47 @@ body, html {
 }
 
 
+
+#green {
+  margin-top: -340px;
+  margin-left: 52%;
+  height: 300px;
+  width: 300px;
+  color: green;
+  border: 20px solid;
+}
+
+#blue {
+ position: absolute;
+  margin-top: -300px;
+  margin-left: 52%;
+  height: 300px;
+  width: 300px;
+  color: blue;
+  border: 20px solid;
+}
+
+#red {
+  z-index: 0;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50%;
+  height: 300px;
+  width: 300px;
+  color: red;
+  border: 20px solid;
+}
+
+#orange {
+  margin-top: -300px;
+  margin-left: 50%;
+  height: 300px;
+  width: 300px;
+  color: orange;
+  border: 20px solid;
+}
+
+
 .banner-image {
   background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/roxbury.jpg);
   height: 30%;
